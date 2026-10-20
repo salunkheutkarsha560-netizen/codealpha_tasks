@@ -1,53 +1,33 @@
+# CodeAlpha Matrix Operations
 
-# Simple Calculator in C
+## Task 2: Matrix Operations in C
 
-## Project Overview
-This project is a simple command-line calculator developed using the C programming language. It performs basic arithmetic operations based on the user's choice.
+This project is part of my CodeAlpha C Programming Internship.
 
-## Features
-- Addition
-- Subtraction
-- Multiplication
-- Division
-- Input validation for numbers and operation choice
-- Division-by-zero protection
-- Clear error messages for invalid choices
+### Features
+- Matrix Addition
+- Matrix Multiplication
+- Matrix Transpose
+- Uses functions and 2D arrays
+- Validates matrix dimensions
 
-## Technologies Used
-- C programming language
-- GCC compiler
-- Visual Studio Code
+### Requirements
+- GCC C compiler
+- Visual Studio Code (or any C editor)
 
-## How to Compile
-Open a terminal in the project directory and run:
-
+### How to Compile
 ```bash
-gcc calculator.c -o calculator
+gcc matrix_operations.c -o matrix_operations
 ```
 
-## How to Run
-On Windows PowerShell, run:
-
+### How to Run
+On Windows PowerShell:
 ```powershell
-.\calculator.exe
+.\matrix_operations.exe
 ```
 
-## How to Use
-1. Enter the first number.
-2. Enter the second number.
-3. Choose an operation from 1 to 4.
-4. View the result.
+### File
+- `matrix_operations.c` — Source code for matrix operations.
 
-## Operations
-| Choice | Operation |
-|---|---|
-| 1 | Addition |
-| 2 | Subtraction |
-| 3 | Multiplication |
-| 4 | Division |
-
-## Error Handling
-The program checks for invalid numeric input, invalid operation choices, and division by zero.
-
-## Author
-Utkarsha Salunkhe
+**Intern:** Utkarsha Salunkhe  
+**Language:** C
